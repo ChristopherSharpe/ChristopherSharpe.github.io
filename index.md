@@ -84,17 +84,8 @@ Portfolios are an amazing way to show off your talent, and the work that you hav
 When it comes to applying for certain jobs, having an ePortfolio can give you a leg up on the competition, as it is a showcase of the work you have done, and shows the hiring manager/’s that you have the skill to do the job that you are applying for. For example, if you are applying for a job that requires the use of coding in Java language, and you have plenty of this in your portfolio, you can share this with the company, and it will give you a much better chance of getting the job, because they see that you have that skillset. However, it can also help you even in just freelance work. A great example would be doing freelance work on fiver. On your profile, or on the job that you post, you can attach your portfolio, and show others what you have done, which could easily lead to you getting more jobs. 
 There are some downsides to publicly posting your portfolio, such as theft of intellectual property. When you post your portfolio, especially publicly, you are allowing others to see what you have done, whether it be code or even writing, your work can be stolen, and without protection or copyrights, they can take the credit for this work. I believe that the best way to combat this would be to keep your portfolio private or creating a portfolio with a password if you are just using it to gain employment, because you can choose who you share it with. However, companies can still take this information or work and use it as their own, although this is unlikely. You can also add a copyright notice, which will let others know that you will pursue litigation if your work is used and proper acknowledgement is not given. 
 
-## Progression Milestones
-### 01.25.21
-  The artifact I am working on is a website for a gaming organization that I used to be a part of called, “Carnage Gaming”. I started it about a week before I began this class, and decided to make it my final project, because I knew that I would be able to showcase some important things that I have learned throughout the years in my courses. I am using HTML, CSS, and JavaScript to create this website, and have learned a lot more over the course of this project. 
-I believe that this project will be a great addition to my e-Portfolio, because it shows a lot of what I have learned and shows that I can put this information to use in real world applications. It also shows that I can create a clean and layered project that will also allow secure user use and a way to store this information securely as well. This showcases my skills in many ways, and here are some good examples: 
-•	HTML shows that I can create a clean code that can be easily read and changed when needed. 
-•	CSS shows that I understand the concepts of how to style and change the way the information on a website is displayed, changing it to the needs and wants of the customer/people who I am designing for. 
-•	The JavaScript portion shows that I can create viable code that can go beyond just that of creating a website. I believe it shows that I understand the basic concepts of programming as well as some advanced concepts, and how to use them. 
 
-### 02.01.21
- In the second enhancement, I worked on the data structure and algorithms portion of my project, by creating data structures that would take in information from the website such as the login/register pages and store them into the databse. I got most of the work that I wanted to get done, done in this enhancement, however I fell a little short. I got the the data structures created, and connected to the database, however I could not get them to grab the information from the webiste and put it in the database. I will continue working on this after this course, but I believe it will take some more studying and debugging to ensure I get this right, and also ensure that the data is safely being obtained and securely stored in the database. I may have been able to get it to work in a work-around, however I decided against this because I am always trying to have a secure coding mindset, which I have learned is a great tool in this program. To ensure the saftey of the information, I decieded to work on this after the course to ensure the user information that will be obtained is safe and secure. 
- 	Throughout this enhancement I hit so many issues that I had no idea how to deal with at first. However, instead of floundering and freaking out, I just took a step back and worked through one issue at a time until I got it right, then moved on to the next. I believe this is the best method when debugging and dealing with issues within your code, because trying to fix multiple things at once will lead you to just create more issues. Although I did'nt get everything I wanted done in this enhancement, I believe that I had a productive week, and helped myself move forward in the project to ensure I will be able to complete it soon. 
+
 ### 02.07.21
   In this enhancement, I was able to create my sqlite3 database, and get it connected to the website, as well as the server.js file that will allow it to run, create the table for the database, and insert data from the registration form to the database. Although I did not quite get where I wanted to, I believe that this was a major step toward being able to take this website live as well as adding a polished and completed project to my e-portfolio. This part I did not get finished, which I will be working on this next week was getting the information from the database to pass through this file and into the database. The creation of the database itself was easy, it was getting it connected to the actual html file and getting to live locally that was the issue. 
 While working on the enhancement’s this week, I came across a lot that I have yet to do, and while it was hard, I found the experience that came with pushing through the pain and heartache to be well worth it. Although I did not complete all the tasks I wanted to, I got through some very tough hurdles, and cannot wait to tackle the rest this in the coming weeks. I do not believe I will have a website that is ready to go live by the end of the class now, however, I know that it will be very close. 
@@ -2379,13 +2370,274 @@ label{
 
 
 ```
+## Sencond Enhancement - Data Structures and Algorithms - 02.01.21
+	 In the second enhancement, I worked on the data structure and algorithms portion of my project, by creating data structures that would take in information from the website such as the login/register pages and store them into the databse. I was also able to get the HTML and CSS done for the login/register page, which worked with the data structures I created by using information in the HTML to direct the information the the structure, which would then direct it into the database. I got most of the work that I wanted to get done, done in this enhancement, however I fell a little short. I got the the data structures created, and connected to the database, however I could not get them to grab the information from the webiste and put it in the database. I will continue working on this after this course, but I believe it will take some more studying and debugging to ensure I get this right, and also ensure that the data is safely being obtained and securely stored in the database. I may have been able to get it to work in a work-around, however I decided against this because I am always trying to have a secure coding mindset, which I have learned is a great tool in this program. To ensure the saftey of the information, I decieded to work on this after the course to ensure the user information that will be obtained is safe and secure. 
+	I learned a lot through this enhancement, about more than just data structures and algorithms, I learned more about secure coding as well. I was able to do research to learn new ways to incorporate these data structures I have created to ensure that they would be able to do the task that I needed them to do. When I started this enhancement I already had knowledge of basic data structures and algorithms, and understood what their purpose was, however I had never put them into practice when dealing with a website, so it was a lot of trial and error at first. This is when I had my first breakthrough, which was getting the structure set up to take in information, as well as link this data structure to the database to pass the information through. I then learned how to start the server on my own computer using the command prompt, and redirect the webpage after the information was entered. The only thing I couldn't quite get, was the actual data itself to pass through the data structure into the database. 
+ 	Throughout this enhancement I hit so many issues that I had no idea how to deal with at first. However, instead of floundering and freaking out, I just took a step back and worked through one issue at a time until I got it right, then moved on to the next. I believe this is the best method when debugging and dealing with issues within your code, because trying to fix multiple things at once will lead you to just create more issues. Although I did'nt get everything I wanted done in this enhancement, I believe that I had a productive week, and helped myself move forward in the project to ensure I will be able to complete it soon. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+```markdown
+## Login/Register HTML
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Carnage Website</title>
+        <!-- Makes site reactive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="Stylesheet" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    </head>
 
-### Jekyll Themes
+    <!-- Nav bar Section -->
+    <body>
+        <header>
+            <div class="flex">
+                <div class="logo">
+                    <a href="#"><img src="Fix Me" alt="Carnage-Logo" /></a>
+                </div>
+                <nav>
+                    <!-- Creates hamburger menu -->
+                    <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+                    <!-- Creates nave bar with -->
+                    <ul id="nav-menu-container">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About Us.html">About Us</a></li>
+                        <li><a href="Content.html">Content</a></li>
+                        <li><a href="Shop.html">Shop</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <a href="Login.html" id="login-register-button">Login / Register</a>
+            </div>
+        </header>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ChristopherSharpe/ChristopherSharpe.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+        <div class="container">
+            <div class="forms-container">
+                <div class="signin-signup">
+                    <form action="#" class="sign-in-form">
+                        <h2 class="title">Sign in</h2>
+                        <div class="input-field">
+                            <i class="fa fa-user"></i>
+                            <input type="text" placeholder="Username" />
+                        </div>
+                        <div class="input-field">
+                            <i class="fa fa-lock"></i>
+                            <input type="password" placeholder="Password" />
+                        </div>
+                        <input type="submit" value="Login" class="btn solid" />
+                        <p class="social-text">Or Sign in with social platforms</p>
+                        <div class="social-media">
+                            <a href="#" class="social-icon">
+                            <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                            <i class="fa fa-google"></i>
+                            </a>
+                        </div>
+                    </form>
+                <form action="http://127.0.0.1:8081/Login.html" method="POST" class="sign-up-form">
+                    
+                    <h2 class="title">Sign up</h2>
+                    <div class="input-field">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name= "Username" placeholder="Username" /><br>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" name = "Email" placeholder="Email" /><br>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" name = "Password" placeholder="Password" /><br>
+                    </div>
+                        <input type="submit" class="btn" value="Sign up"></button>
+                        <p class="social-text">Or Sign up with social platforms</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                        <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                        <i class="fa fa-google"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+      
+            <div class="panels-container">
+                <div class="panel left-panel">
+                    <div class="content">
+                    <h3>New here ?</h3>
+                    <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+                    ex ratione. Aliquid!
+                    </p>
+                    <button class="btn transparent" id="sign-up-btn">
+                        Sign up
+                    </button>
+                    </div>
+                        <img src="images/RW-logo.png" class="image" alt="" />
+                    </div>
+                <div class="panel right-panel">
+                    <div class="content">
+                    <h3>One of us ?</h3>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                    laboriosam ad deleniti.
+                    </p>
+                    <button class="btn transparent" id="sign-in-btn">
+                        Sign in
+                    </button>
+                    </div>
+                    <img src="images/RW-logo.png" class="image" alt="" />
+                </div>
+            </div>
+        </div>
+      
+          <script src="app.js"></script>
+    </body>
+</html>
 
-### Support or Contact
+<script>
+    
+const sign_in_btn = document.querySelector("#sign-in-btn");
+const sign_up_btn = document.querySelector("#sign-up-btn");
+const container = document.querySelector(".container");
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+sign_up_btn.addEventListener("click", () => {
+  container.classList.add("sign-up-mode");
+});
+
+sign_in_btn.addEventListener("click", () => {
+  container.classList.remove("sign-up-mode");
+});
+
+</script>
+
+## database.js file
+import sqlite3 from 'sqlite3';
+import md5 from 'md5';
+
+const DBSOURCE = "Carnage-Website.db"
+
+let db = new sqlite3.Database(DBSOURCE, (err) => {
+    if (err) {
+        // Cannot open database
+        console.error(err.message)
+        throw err
+    } else {
+        console.log('Connected to the SQLite database.')
+        db.run(`CREATE TABLE users (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                Username text NOT NULL, 
+                Email text UNIQUE NOT NULL, 
+                Password text NOT NULL, 
+                CONSTRAINT email_unique UNIQUE (email)
+            )`,
+            (err) => { 
+                if (err) {
+                    // Table already created
+                    console.log("Table already created" + err.message)
+                }else {
+                    console.log('Table was created.')
+                }
+                // console.log("here")
+
+                    var insert = `INSERT INTO users (Username, Email, Password) VALUES (?, ?, ?)`
+                    db.run(insert, (Username, Email, md5(Password)), function (err) {
+
+                        // console.log('Here2')
+
+                        if (err) {
+                            console.log("Error inserting user" + err.message);
+                            return;
+                        }
+                        else {
+                            console.log('New user successfully added to the table.')
+                            return;
+                        }
+
+                    })
+                
+            });
+
+    }
+});  
+
+    
+
+
+
+export default db
+
+## server.js file
+import express from 'express';
+import bodyParser from 'body-parser';
+import md5 from 'md5';
+import sqlite3 from 'sqlite3';
+import db from "./JavaScript/database.js";
+var app = express();
+import { dirname } from 'path';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+
+var urlencodedParser = bodyParser.urlencoded({ extended: false })
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+app.use(express.static('public'));
+app.use('/', express.static(path.join(__dirname, 'public')))
+
+// app.get('/', function (req, res) {
+//    res.sendFile( __dirname + "/" + "index.html" );
+// })
+app.get('/Login.html', function (req, res) {
+   res.sendFile( __dirname + "/" + "Login.html" );
+})
+
+app.post('/Login.html', urlencodedParser, function (req, res) {
+   // Prepare output in JSON format
+   
+   var response = {
+      Username:req.body.Username,
+      Email:req.body.Email,
+      Password:md5(req.body.Password)
+   };
+   //db.saveUser
+   console.log(response);
+   res.status(201).json(response);
+
+
+})
+
+var server = app.listen(8081, function () {
+   var host = server.address().address
+   var port = server.address().port
+   
+   console.log("Example app listening at http://%s:%s", host, port)
+})
+```
+## Third Enhancement - Database
+ 	In this enhancement, I was able to create my sqlite3 database, and get it connected to the website, as well as the server.js file that will allow it to run, create the table for the database, and insert data from the registration form to the database. Although I did not quite get where I wanted to, I believe that this was a major step toward being able to take this website live as well as adding a polished and completed project to my e-portfolio. This part I did not get finished, which I will be working on this next week was getting the information from the database to pass through this file and into the database. The creation of the database itself was easy, it was getting it connected to the actual html file and getting to live locally that was the issue. 
+	While working on the enhancement’s this week, I came across a lot that I have yet to do, and while it was hard, I found the experience that came with pushing through the pain and heartache to be well worth it. Although I did not complete all the tasks I wanted to, I got through some very tough hurdles, and cannot wait to tackle the rest this in the coming weeks. I do not believe I will have a website that is ready to go live by the end of the class now, however, I know that it will be very close. 
+	After creating the databse, I began to comb through my code and look for issues as well as add some formatting, images, and functionality to the rest of the project and HTML/CSS code. Most of what I did was cosmetic, to give the website a better look before it was submitted. I also looked for any bugs and problem code that could cause issues while using the website. 
+```markdown
+## Database creation code/explanation
+To create the sqlite3 database, I first installed the drives in my cmd to use this database. I then started the program, added the database name, then created the table. 
+sqlite3 Carnage-Website.db
+CREATE TABLE users (
+	id INTEGER PRIMARY KEY,
+	username VARCHAR(30) NOT NULL,
+	email VARCHAR(50) NOT NULL UNIQUE,
+	password VARCHAR(30) NOT NULL
+	);
+I then made sure that the databse was connected to the data structures that I created last week to ensure that when I finally get the code in place to grab the information from the website, it will be able to pass into the databse correctly, and safetly. 
+```
+
+
