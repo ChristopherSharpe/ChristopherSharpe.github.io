@@ -105,23 +105,213 @@ While working on the enhancement’s this week, I came across a lot that I have 
 
  
 
-
+## First enhancement - HTML and CSS code - Software Engineer and Design
 ```markdown
-Syntax highlighted code block
+## About us HTML
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Carnage Website</title>
+        <!-- Makes site reactive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="Stylesheet" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    </head>
 
-# Header 1
-## Header 2
-### Header 3
+    <!-- Nav bar Section -->
+    <body>
+        <header>
+            <div class="flex">
+                <div class="logo">
+                    <a href="#"><img src="Fix Me" alt="Carnage-Logo" /></a>
+                </div>
+                <nav>
+                    <!-- Creates hamburger menu -->
+                    <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+                    <!-- Creates nave bar with -->
+                    <ul id="nav-menu-container">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About Us.html">About Us</a></li>
+                        <li><a href="Content.html">Content</a></li>
+                        <li><a href="Shop.html">Shop</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <a href="Login.html" id="login-register-button">Login / Register</a>
+            </div>
+        </header>
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+        <main>
+            <section id="About-Us-image">
+                <div class="About-image-text"></div>
+            </section>
+            
+            <section>
+                <div class="About-Us-text"> <h1>About Carnage Gaming</h1>
+                <p> Corey "Twoday" is a former competitive Call of Duty player for Skpk Esports. Upon Carnage Gaming acquiring Skpk Esports he decided 
+                to take on an executive role. With his extensive knowledge of the Call of Duty scene he brings on board great insight, he currently 
+                ensures that day to day operations are addressed within the Executive Board. Along with ensuring that all operations are addressed, 
+                Corey is also one of the primary investors within Carnage Gaming. Corey consistently seeks new opportunities for Carnage to align itself 
+                with like minded individuals and organizations in establsihing partnerships that will benefit both parties.</p>
+                </div> 
+            </section>
+            
+            <section id="About-boxes">
+                <div class="flex">
+                    <div class="box CGO">
+                        <span class="badge CGO">IVAN MONTENEGRO</span>
+                        <a target="_blank" href="https://twitter.com/CGKiiNgz?ref_src=twsrc%5Etfw" class="fa fa-twitter"></a>
+                        <a href="https://twitter.com/CGKiiNgz?ref_src=twsrc%5Etfw" class="fa fa-youtube"></a>
+                        <a href="https://www.twitch.tv/kiingzcg" class="fa fa-twitch"></a>
+                        
+                        
+                        
+                        <div class="contents">
+                            <img style="float: left; margin: 0px 15px 15px 0px;" src="images/Jason.jpg" alt="Jason" width="158" /><h4>CGO/Chief Gaming Officer</h4>
+                                    <p>Ivan "KiiNgz" Montenegro, the Chief Gaming Officer and Owner of Carnage Gaming, is an accomplished leader. With a deep background 
+                                    in Applied Behavior Analysis, he knows what it takes to be the best within any venture. Originally having a passion to compete within 
+                                    the Halo franchise, Ivan has witnessed the rise of competitive gaming. Ivan is dedicated to ensuring that all organizations in which he 
+                                    has control succeed, ensuring that all members achieve their ultimate goal. He has expanded Carnage into an event hosting organization,
+                                    where he remains an active member of the day to day operations. Never allowing the title to dictate anything as an Owner he still remains 
+                                    active across all divisions.</p>
+                        </div>
+                                                      
+                        </div>
+                    </div>
+                
 
-**Bold** and _Italic_ and `Code` text
+                <div class="flex">
+                    <div class="box CEO">
+                        <span class="badge CEO">CODY BACH</span>
+                        <a href="https://twitter.com/osnackpack" class="fa fa-twitter"></a>
+                        <a href="Fix Me" class="fa fa-youtube"></a>
+                        <a href="Fix Me" class="fa fa-twitch"></a>
+                        
+                        
+                        
+                        <div class="contents">
+                            <img style="float: left; margin: 0px 15px 15px 0px;" src="images/Jason.jpg" alt="Jason" width="158" /><h4>CEO/Chief Executive Officer</h4>
+                                    <p> Cody "Snackpack", former Chief Executive Officer for SKPK Esports joined the Carnage Family in early 2019. 
+                                        With an extensive background in both management as well as recruitment he rapidly moved up to Chief Executive Officer. 
+                                        Cody brings an extensive understanding of the Call of Duty community along with other titles that include Rainbow Six Siege, 
+                                        CSGO, & the Fighting Community. Cody has also witnessed the rise of competitive gaming and alongside Ivan form the perfect duo, 
+                                        consistently striving to improve Carnage on a daily basis.</p>
+                        </div>
+                            
+                            
+                            
+                    </div>
+                </div>
 
-[Link](url) and ![Image](src)
+
+
+            
+                <div class="flex">
+                    <div class="box CBO">
+                        <span class="badge CBO">COREY "Twoday"</span>
+                        <a href="https://twitter.com/twodayCG" class="fa fa-twitter"></a>
+                        <a href="Fix Me" class="fa fa-youtube"></a>
+                        <a href="Fix Me" class="fa fa-twitch"></a>
+                        
+                        
+                        
+                        <div class="contents">
+                            <img style="float: left; margin: 0px 15px 15px 0px;" src="images/Jason.jpg" alt="Jason" width="158" /><h4>CBO/Chief Branding Officer</h4>
+                                    <p> Corey "Twoday" is a former competitive Call of Duty player for Skpk Esports. Upon Carnage Gaming acquiring Skpk Esports he decided 
+                                        to take on an executive role. With his extensive knowledge of the Call of Duty scene he brings on board great insight, he currently 
+                                        ensures that day to day operations are addressed within the Executive Board. Along with ensuring that all operations are addressed, 
+                                        Corey is also one of the primary investors within Carnage Gaming. Corey consistently seeks new opportunities for Carnage to align itself 
+                                        with like minded individuals and organizations in establsihing partnerships that will benefit both parties.</p>
+                        </div>       
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div class="box COO">
+                        <span class="badge COO">COREY "Twoday"</span>
+                        <a href="https://twitter.com/twodayCG" class="fa fa-twitter"></a>
+                        <a href="Fix Me" class="fa fa-youtube"></a>
+                        <a href="Fix Me" class="fa fa-twitch"></a>
+                        
+                        
+                        
+                        <div class="contents">
+                            <img style="float: left; margin: 0px 15px 15px 0px;" src="images/Jason.jpg" alt="Jason" width="158" /><h4>COO/Chief Operations Officer</h4>
+                                    <p> Corey "Twoday" is a former competitive Call of Duty player for Skpk Esports. Upon Carnage Gaming acquiring Skpk Esports he decided 
+                                        to take on an executive role. With his extensive knowledge of the Call of Duty scene he brings on board great insight, he currently 
+                                        ensures that day to day operations are addressed within the Executive Board. Along with ensuring that all operations are addressed, 
+                                        Corey is also one of the primary investors within Carnage Gaming. Corey consistently seeks new opportunities for Carnage to align itself 
+                                        with like minded individuals and organizations in establsihing partnerships that will benefit both parties.</p>
+                        </div>       
+                    </div>
+                </div> 
+
+                <div class="flex">
+                    <div class="box CMO">
+                        <span class="badge CMO">COREY "Twoday"</span>
+                        <a href="https://twitter.com/twodayCG" class="fa fa-twitter"></a>
+                        <a href="Fix Me" class="fa fa-youtube"></a>
+                        <a href="Fix Me" class="fa fa-twitch"></a>
+                        
+                        
+                        
+                        <div class="contents">
+                            <img style="float: left; margin: 0px 15px 15px 0px;" src="images/Jason.jpg" alt="Jason" width="158" /><h4>CMO/Chief Marketing Officer</h4>
+                                    <p> Corey "Twoday" is a former competitive Call of Duty player for Skpk Esports. Upon Carnage Gaming acquiring Skpk Esports he decided 
+                                        to take on an executive role. With his extensive knowledge of the Call of Duty scene he brings on board great insight, he currently 
+                                        ensures that day to day operations are addressed within the Executive Board. Along with ensuring that all operations are addressed, 
+                                        Corey is also one of the primary investors within Carnage Gaming. Corey consistently seeks new opportunities for Carnage to align itself 
+                                        with like minded individuals and organizations in establsihing partnerships that will benefit both parties.</p>
+                        </div>       
+                    </div>
+                </div> 
+            </section>
+        </main>
+
+        <footer>
+            <div class="block">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="About Us.html">About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="Content.html">Content</a>
+                    </li>
+
+                    <li>
+                        <a href="Shop.html">Shop</a>
+                    </li>
+
+                    <li>
+                        <a href="Contact.html">Contact</a>
+                    </li>
+                    <a href="https://twitter.com/twodayCG" class="fa fa-twitter"></a>
+                    <a href="Fix Me" class="fa fa-youtube"></a>
+                    <a href="Fix Me" class="fa fa-twitch"></a>
+                </ul>
+                
+        </footer>
+
+        <script>
+            document.getElementById('nav-toggle').addEventListener('click', function () {
+                let navMenu = document.getElementById('nav-menu-container');
+                navMenu.style.display = navMenu.offsetParent === null ? 'block' : 'none';
+            });
+        </script>
+    </body>
+</html>
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
