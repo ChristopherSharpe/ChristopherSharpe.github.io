@@ -1,5 +1,6 @@
 ## Christopher Sharpe's E-Portfolio
 
+## Professional Self-Assessment
 Hello, my name is Chris Sharpe. I am a 26-year-old student in the computer science program here at SNHU. I have been in this program since 2018 or for three years, while also working a full-time job, which has made it quite the challenge. I have learned a lot in this program and believe that it will help me in my career goals and help me reach my dream. 
 	I have learned so much in this program, that it is hard to decide where to begin. Some great example of this would be learning how to use Java, Python, and C++, as well as SQL and MongoDB. I have also learned how important secure coding is, as well as learning about different operating systems/environments that can be used, and even data mining. Although I find all these things important, especially the coding aspects, I believe the three most important things I have learned are:
 	1. Secure coding- Keeping a secure coding mindset to ensure the safety of the program I am creating as well as keeping the user’s information 		   safe, is very important to me, and will help me move forward knowing how to do this. 
